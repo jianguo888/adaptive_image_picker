@@ -41,17 +41,19 @@ flutter:
         pluginClass: AdaptiveImagePickerPlugin
       ios:
         pluginClass: AdaptiveImagePickerPlugin
+      ohos:
+        pluginClass: AdaptiveImagePickerPlugin
       web:
         pluginClass: AdaptiveImagePickerWeb
         fileName: adaptive_image_picker_web.dart
       windows:
         dartPluginClass: AdaptiveImagePickerDesktop
-        fileName: adaptive_image_picker_desktop.dart
+        dartFileName: adaptive_image_picker_desktop.dart
       macos:
         dartPluginClass: AdaptiveImagePickerDesktop
-        fileName: adaptive_image_picker_desktop.dart
+        dartFileName: adaptive_image_picker_desktop.dart
       linux:
         dartPluginClass: AdaptiveImagePickerDesktop
-        fileName: adaptive_image_picker_desktop.dart
+        dartFileName: adaptive_image_picker_desktop.dart
 
 
