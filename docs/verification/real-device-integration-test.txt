@@ -1,0 +1,12 @@
+00:00 +0: loading /private/tmp/aip/example/integration_test/plugin_integration_test.dart
+start hap build...
+Running Hvigor task assembleHap...                                 13.5s
+✓ Built build/ohos/hap/entry-default-signed.hap.
+installing hap. bundleName: com.example.MyApp 
+waiting for a debug connection: http://127.0.0.1:55667/SLgY0dG22f4=/
+Execute attach command for bundle: com.example.MyApp
+00:00 +0: getPlatformVersion returns an OpenHarmony version string
+00:00 +1: pickImages reaches the OHOS native handler
+00:06 +2: takePhoto reaches the OHOS native handler
+00:06 +3: (tearDownAll)
+00:07 +3: All tests passed!

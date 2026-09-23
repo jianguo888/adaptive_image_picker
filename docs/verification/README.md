@@ -14,7 +14,9 @@
 
 ## 测试结果
 
-`real-device-integration-test.log` 为 `flutter test integration_test/plugin_integration_test.dart -d 2LQ0224129000383` 的原始输出，**3 个用例全部通过**：
+`real-device-integration-test.txt` 为 `flutter test integration_test/plugin_integration_test.dart -d 2LQ0224129000383` 的原始输出，**3 个用例全部通过**：
+
+> 文件后缀为 `.txt` 而非 `.log`，是因为仓库 `.gitignore` 忽略了 `*.log`，沿用 `.log` 会导致验证记录无法入库。
 
 ```
 00:00 +0: getPlatformVersion returns an OpenHarmony version string
